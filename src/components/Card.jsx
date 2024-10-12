@@ -1,3 +1,4 @@
+import CreateButton from "./CreateButton"
 import SubCard from "./SubCard"
 
 const Card = () => {
@@ -9,6 +10,9 @@ const Card = () => {
             <div className=" mt-4 ">
                 <SubCard />
             </div>
+        </div>
+        <div>
+            <CreateButton  />
         </div>
     </div>
   )
